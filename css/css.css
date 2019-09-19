@@ -1,0 +1,63 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background: 0 0;
+    border: 0;
+    padding: 0;
+    outline: 0;
+    margin: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.main_for_select {
+    float: left;
+    width: 30%;
+    margin: 12px 0 0;
+    height: 36px;
+    border: 1px solid #c2c5cd;
+    position: relative;
+}
+
+.logo_img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 34px;
+    width: 36px;
+    z-index: 30;
+    border-right: 1px solid #c2c5cd;
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    pointer-events: none;
+    background-image: url('../img/598px-football_federation_of_armenia.svg_.png');
+}
+
+.sel {
+    display: block;
+    float: left;
+    width: 100%;
+    height: 34px;
+    font: 14px/34px "Roboto", "Arial", sans-serif;
+    color: #737888;
+    background: #fff;
+    padding: 0 14px 0 50px;
+}
+
+.main_for_select:after {
+    content: "\e91b";
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font: 5px/34px icomoon;
+    pointer-events: none;
+    height: 34px;
+    z-index: 30;
+    color: #505767;
+}
+
+.table_for_club div {
+    display: none;
+}
+
